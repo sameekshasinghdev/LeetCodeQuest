@@ -1,4 +1,4 @@
-package dailyPractice;
+package dailyPractice.streamapi;
 
 import java.util.Arrays;
 import java.util.List;
