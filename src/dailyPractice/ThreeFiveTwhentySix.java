@@ -23,17 +23,14 @@ public class ThreeFiveTwhentySix {
 	}
 
 	private static long countStringsStartingWithA(List<String> l2) {
-		// TODO Auto-generated method stub
 		return l2.stream().filter(s->s.startsWith("A")).count();
 	}
 
 	private static int findFirstGreaterThanTen(List<Integer> l1) {
-		// TODO Auto-generated method stub
 		return l1.stream().filter(i->i>10).findFirst().orElseThrow();
 	}
 
 	private static List<String> convertToUpperCase(List<String> sList) {
-		// TODO Auto-generated method stub
 		return sList.stream().map(s->s.toUpperCase()).toList();
 	}
 
